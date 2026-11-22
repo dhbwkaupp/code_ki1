@@ -1,0 +1,45 @@
+# ---------------------------------------------------------
+# Datensätze, die als Release-Anhang auf GitHub liegen
+# ---------------------------------------------------------
+Datensätze/muenzen_gesamt/
+Datensätze/muenzen_gesamt.zip
+
+# Archive und Sicherungen
+*.zip
+!Datensätze/*.csv
+
+# ---------------------------------------------------------
+# Modelle und Trainingsergebnisse
+# ---------------------------------------------------------
+runs/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*_openvino_model/
+*.h5
+*.keras
+logs/
+
+# Vom KI-Geldzähler gespeicherte Kamerabilder (Taste s)
+live_*.jpg
+
+# ---------------------------------------------------------
+# Python und Jupyter
+# ---------------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# ---------------------------------------------------------
+# Editor und Betriebssystem
+# ---------------------------------------------------------
+.vscode/
+.idea/
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+.DS_Store
